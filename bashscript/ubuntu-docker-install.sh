@@ -22,7 +22,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh && \
 sh ./get-docker.sh && \
 rm get-docker.sh
 
-# se não tiver sudo provavelmente é um container
+# se não tiver sudo provavelmente é uma instância
 if command -v sudo &>/dev/null; then
 	echo "Ajustando o serviço docker"
 	if command -v systemctl &>/dev/null; then
